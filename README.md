@@ -2,7 +2,15 @@ Link for the traffic incidents by date in LA:
 https://data.lacity.org/Public-Safety/Traffic-Accidents-by-date/2mzm-av8t
 
 
-NOTES: 
+08/06/2025
+we have zero values in train and test data --> we cleaned both using the cvae model trained on raw data 
+we fill with the generated samples the zero values
+we use the cleaned train data to train again the cvae and obtain the predictions
+we use the cleaned test set to evaluate the performance of the model in the prediction of traffic velocity
+we use the raw test to calculate the anomalies 
+
+thing to do: fix names, clean the code, check the markdown, visualization and analysis of the results
+lstm+cvale...
 
 DATA VISUALIZATION 
 
